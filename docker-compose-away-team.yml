@@ -1,0 +1,81 @@
+version: '3.4'
+services:
+  player_away_01:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=1
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_02:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=2
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_03:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=3
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_04:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=4
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_05:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=5
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_06:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=6
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_07:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=7
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_08:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=8
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_09:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=9
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_10:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=10
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+  player_away_11:
+    image: ${AWAY_BOT:-lugobots/the-dummies-go:latest}
+    environment:
+      - BOT_NUMBER=11
+      - BOT_TEAM=away
+      - BOT_GRPC_URL=localhost:5000
+    network_mode: host
+
+
