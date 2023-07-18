@@ -291,8 +291,9 @@ if __name__ == '__main__':
         print("Stop requested\n")
         lugo_client.stop()
         gym.stop()
-        players_executor.shutdown(wait=True)
-        gym_executor.shutdown(wait=True)
+        players_executor.shutdown(wait=True, cancel_futures=True)
+        gym_executor.shutdown(wait=True, cancel_futures=True)
+        stop.set()
 
 
     signal.signal(signal.SIGINT, signal_handler)
